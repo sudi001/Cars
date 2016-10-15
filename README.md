@@ -30,7 +30,7 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
    - GET /login: bejelentkező oldal
    - POST /login: bejelentkezési adatok felküldése
    - GET /profile: profiladatok
-   - GET /recipes: receptlista
-   - GET /recipes/:id: recept megtekintése
-   - GET /recipes/create: új recept felvitele, űrlap megjelenítése
-   - POST /recipes/create: új recept felvitele, adatok küldése
+   - GET /autok: autólista
+   - GET /autok/id: autó megtekintése
+   - GET /autok/create: új autó felvitele, űrlap megjelenítése
+   - POST /autok/create: új autók felvitele, adatok küldése
