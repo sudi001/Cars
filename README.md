@@ -26,8 +26,11 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 
 ### Végpontok
 
-Az oldal az alábbi végpont-szerkezet alapján épül fel:
-- contacts/
-  - list A névjegyek megtekintésenew Új névjegy felvételedelete{id} Kiválasztott névjegy törlésemodificate{id} Kiválasztott névjegy módosításaauth/ login Bejelentkezéssignup Regisztrációlogout Kijelentkezésabout Az alkalmazásról szóló információk megtekintése
-
-![enter image description here](http://static1.creately.com/blog/wp-content/uploads/2012/02/UML-Class-Diagram-Example.png)
+   - GET /: főoldal
+   - GET /login: bejelentkező oldal
+   - POST /login: bejelentkezési adatok felküldése
+   - GET /profile: profiladatok
+   - GET /recipes: receptlista
+   - GET /recipes/:id: recept megtekintése
+   - GET /recipes/create: új recept felvitele, űrlap megjelenítése
+   - POST /recipes/create: új recept felvitele, adatok küldése
