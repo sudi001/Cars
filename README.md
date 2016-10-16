@@ -10,8 +10,23 @@ A beadandó célja egy kis webes alkalmazás elkészítése szerveroldali techno
 - legalább három tábla adatait szerkeszteni kell tudni: lista, új, módosít, töröl (vagy inaktívvá tesz)
 - legyenek benne csak hitelesítés után elérhető funkciók (autentikáció)
 - ügyelni kell, hogy csak a megfelelő adatokhoz férjen hozzá a megfelelő felhasználó (autorizáció)
-   
-   
+
+
+## Funkcionális követelmények
+ - Vendégként a főoldalon szeretnék autókat látni kategóriánként.
+ - Vendégként szeretnék az autók között szabadon böngészni.
+ - Vendégként szeretnék egy autóleírást megtekinteni.
+ - Vendégként szeretnék autót keresni.
+ - Vendégként szeretnék tudni regisztrálni az oldalra.
+ 
+ - Felhasználóként szeretnék tudni bejelentkezni az oldalra.
+ - Felhasználóként szeretném tudni a profiladataimat szerkeszteni.
+ - Felhasználóként szeretnék az autók leírásához hozzászólni és értékelni azokat.
+ 
+## Nem funkcionális követelmények 
+ - Felhasználóbarát, ergonomikus elrendezés és kinézet.
+ - Gyors működés.
+ - Biztonságos működés: jelszavak tárolása, funkciókhoz való hozzáférés.  
 
 ## Használatieset-modell
 
