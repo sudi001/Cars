@@ -77,5 +77,5 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 ### Adatmodell
 ![enter image description here](http://kepfeltoltes.hu/161016/Adatmodell_www.kepfeltoltes.hu_.png)
 
-### UseCase diagram
+### Szerepkörtől független UseCase diagram
 ![enter image description here](http://kepfeltoltes.hu/161016/UseCase_www.kepfeltoltes.hu_.png)
