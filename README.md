@@ -39,6 +39,7 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 
 ## Tervezés
 
+
 ### Végpontok
 
  - GET /: főoldal
@@ -54,6 +55,27 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
  - POST /films/delete: autók törlése, adatok küldése
  
 ### Oldalvázlat
+#### Főoldal:
+
+![enter image description here](http://kepfeltoltes.hu/161016/Home_www.kepfeltoltes.hu_.jpg)
+
+#### Autentikáció után elért oldal:
+
+![enter image description here](http://kepfeltoltes.hu/161016/Lista_www.kepfeltoltes.hu_.jpg)
+
+![enter image description here](http://kepfeltoltes.hu/161016/_rt_kel_s_www.kepfeltoltes.hu_.jpg)
+
+#### Vendégként megtekintett oldal:
+
+![enter image description here](http://kepfeltoltes.hu/161016/Guest_www.kepfeltoltes.hu_.jpg)
 
 
+### Szekvencia diagram
 
+![enter image description here](http://kepfeltoltes.hu/161016/Szekvencia_www.kepfeltoltes.hu_.png)
+
+### Adatmodell
+![enter image description here](http://kepfeltoltes.hu/161016/Adatmodell_www.kepfeltoltes.hu_.png)
+
+### UseCase diagram
+![enter image description here](http://kepfeltoltes.hu/161016/UseCase_www.kepfeltoltes.hu_.png)
