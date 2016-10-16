@@ -26,14 +26,16 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 
 ### Végpontok
 
-   - GET /: főoldal
-   - GET /login: bejelentkező oldal
-   - POST /login: bejelentkezési adatok felküldése
-   - GET /profile: profiladatok
-   - GET /autok: autólista
-   - GET /autok/id: autó megtekintése
-   - GET /autok/create: új autó felvitele, űrlap megjelenítése
-   - POST /autok/create: új autók felvitele, adatok küldése
-   - GET /films/edit: autók szerkesztése, űrlap megjelenítése
-   - POST /films/edit: autók szerkesztése,  adatok küldése
-   - POST /films/delete: autók törlése, adatok küldése
+ - GET /: főoldal
+ - GET /login: bejelentkező oldal
+ - POST /login: bejelentkezési adatok felküldése
+ - GET /profile: profiladatok
+ - GET /autok: autólista
+ - GET /autok/id: autó megtekintése
+ - GET /autok/create: új autó felvitele, űrlap megjelenítése
+ - POST /autok/create: új autók felvitele, adatok küldése
+ - GET /films/edit: autók szerkesztése, űrlap megjelenítése
+ - POST /films/edit: autók szerkesztése,  adatok küldése
+ - POST /films/delete: autók törlése, adatok küldése
+ 
+ 
