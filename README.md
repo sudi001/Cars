@@ -81,7 +81,36 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 ![enter image description here](http://kepfeltoltes.hu/161016/UseCase_www.kepfeltoltes.hu_.png)
 
 
-![] (rate.png)
+
+### Megjelenés
+
+**Főoldal bejelentkezés nélkül**
+
+![](main.jpg)
+
+**Autók listában**
+
+![](list.jpg)
+
+**Komment írás**
+
+![](comment.PNG)
+
+**Regisztráció**
+
+![](reg.PNG)
+
+**Autók kategóriák szerint**
+
+![](cat.PNG)
+
+**Bejelentkezés jelszó nélkül**
+
+![](login without pw.PNG)
+
+**Kijelentkezés**
+
+![](logout.PNG)
 
 
 
@@ -116,7 +145,8 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 - autók értékelése
 - kommentek írása
 
-
+ **Szekvencia diagram:**  
+ ![](seq.jpg)
 
 **Selenium IDE telepítése**
 
