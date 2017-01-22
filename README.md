@@ -81,6 +81,10 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 ![enter image description here](http://kepfeltoltes.hu/161016/UseCase_www.kepfeltoltes.hu_.png)
 
 
+![] (rate.png)
+
+
+
 **Selenium IDE telepítése**
 
  > A **Selenium IDE** használatához szükségünk lesz egy *FireFox*ra.  
@@ -92,4 +96,5 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
  > --Telepítés után a Ctrl+Alt+S kombminációval indíthatjuk el az IDE-t a Firefox böngészőben. Ha elindítottuk az alkalmazást, akkor a zöld nyíllal futtathatjuk a teszteket, ami a képen jelölve van. A tesztek a test alkönyvtárban találhatóak.
  
 ![](selenium.png)
+
 
