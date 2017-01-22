@@ -122,7 +122,7 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 ## Kliensoldali funkciók
 
 
-** Popup Login**
+**Popup Login**
  - Módosított / új fájlok: *login_popup.js*, *main.njk*, *login.njk*, *UserController.js*, *routes.js*
  - Leírás: A főoldalon, ha nem vagyunk bejelentkezve, akkor egy  hívás történik mely során felugrik egy AJAX-os ablak, ahol be lehet jelentkezni (így nem kell a bejelentkező oldalra ugrani)
  
