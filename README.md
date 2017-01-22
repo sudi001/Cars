@@ -83,7 +83,19 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 
 ![] (rate.png)
 
-##Könyvtárszerkezet
+
+
+## Implementáció
+
+ **Fejlesztő környezet: Visual Studio Code (node.js - adonis.js keretrendszer)**
+  * Futtatás: terminál ablak nyitása (ctrl + ö) -> cd cars -> npm start
+  * Használat: bármely böngészőben indítható a localhost:3333-on
+
+
+
+
+
+## Könyvtárszerkezet
  
   **A fejlesztés szempontjából lényeges könyvtárak, fájlok:**
 
