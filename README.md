@@ -139,10 +139,10 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
   * Email: email formátumnak megfelelő
   * Jelszó: a két jelszónek meg kell egyeznie
   
-**Kiléps megerősítés**
+**Kilépés megerősítése**
  - Leírás: Egy már belépett felhasználó véletlen kijelentkezését, szükséges megakadályozni. Egy egyszerű popupon keresztül megerősítendő a kijelentkezés szándéka
  
-**Komment validálás**
+**Komment validálása**
  - Leírás: Egy már belépett felhasználó kommentelésének a feltételeit ellenőrzi, melyek szerint értékelést csak szöveges komment mellett, és szöveges kommentet csak értékelés mellett, küldhet el a bejelentkezett felhasználó.
 
 ## Könyvtárszerkezet
