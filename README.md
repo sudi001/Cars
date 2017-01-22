@@ -56,28 +56,28 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 ### Oldalvázlat
 #### Főoldal:
 
-![enter image description here](http://kepfeltoltes.hu/161016/Home_www.kepfeltoltes.hu_.jpg)
+![enter image description here](Home.jpg)
 
 #### Autentikáció után elért oldal:
 
-![enter image description here](http://kepfeltoltes.hu/161016/Lista_www.kepfeltoltes.hu_.jpg)
+![enter image description here](Lista.jpg)
 
-![enter image description here](http://kepfeltoltes.hu/161016/_rt_kel_s_www.kepfeltoltes.hu_.jpg)
+![enter image description here](Értékelés.jpg)
 
 #### Vendégként megtekintett oldal:
 
-![enter image description here](http://kepfeltoltes.hu/161016/Guest_www.kepfeltoltes.hu_.jpg)
+![enter image description here](Guest.jpg)
 
 
 ### Szekvencia diagram
 
-![enter image description here](http://kepfeltoltes.hu/161016/Szekvencia_www.kepfeltoltes.hu_.png)
+![enter image description here](Szekvencia.PNG)
 
 ### Adatmodell
-![enter image description here](http://kepfeltoltes.hu/161016/Adatmodell_www.kepfeltoltes.hu_.png)
+![enter image description here](Adatmodell.PNG)
 
 ### Szerepkörtől független UseCase diagram
-![enter image description here](http://kepfeltoltes.hu/161016/UseCase_www.kepfeltoltes.hu_.png)
+![enter image description here](UseCase.PNG)
 
 
 
