@@ -132,17 +132,17 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 
 
 
-** Regisztrációs adatok validálása**  
+**Regisztrációs adatok validálása**  
  - Módosított / új fájlok: *register.njk*
  - Leírás: Regisztráció során ellenőrzi, hogy a felhasználó megfelelő adatokat adott-e meg:  
   * Felhasználónév: csak ékezet nélküli betű és szám
   * Email: email formátumnak megfelelő
   * Jelszó: a két jelszónek meg kell egyeznie
   
-** Kiléps megerősítés**
+**Kiléps megerősítés**
  - Leírás: Egy már belépett felhasználó véletlen kijelentkezését, szükséges megakadályozni. Egy egyszerű popupon keresztül megerősítendő a kijelentkezés szándéka
  
-** Komment validálás**
+**Komment validálás**
  - Leírás: Egy már belépett felhasználó kommentelésének a feltételeit ellenőrzi, melyek szerint értékelést csak szöveges komment mellett, és szöveges kommentet csak értékelés mellett, küldhet el a bejelentkezett felhasználó.
 
 ## Könyvtárszerkezet
