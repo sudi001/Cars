@@ -37,8 +37,7 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 - bejelentkezett, azonosított felhasználó: a bejelentkezett felhasználók a publikus oldalakon kívül az autókhoz véleményt írhatnak és értékelhetik azokat, továbbá.
 - adminisztrátor: a felhasználói adatokat módosítani képes felhasználó, új autókat tud hozzáadni, módosítani és meglévőket törölni.
 
-## Tervezés
-
+## Tervezés:
 
 ### Végpontok
 
@@ -86,11 +85,11 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 
 **Főoldal bejelentkezés nélkül**
 
-![](main.jpg)
+![](main.PNG)
 
 **Autók listában**
 
-![](list.jpg)
+![](list.PNG)
 
 **Komment írás**
 
@@ -106,7 +105,7 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 
 **Bejelentkezés jelszó nélkül**
 
-![](login without pw.PNG)
+![](Login without pw.PNG)
 
 **Kijelentkezés**
 
@@ -119,8 +118,6 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
  **Fejlesztő környezet: Visual Studio Code (node.js - adonis.js keretrendszer)**
   * Futtatás: terminál ablak nyitása (ctrl + ö) -> cd cars -> npm start
   * Használat: bármely böngészőben indítható a localhost:3333-on
-
-
 
 
 
@@ -156,7 +153,7 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
  > Letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/  
  
 **Selenium IDE használata**
- > --Telepítés után a Ctrl+Alt+S kombminációval indíthatjuk el az IDE-t a Firefox böngészőben. Ha elindítottuk az alkalmazást, akkor a zöld nyíllal futtathatjuk a teszteket, ami a képen jelölve van. A tesztek a test alkönyvtárban találhatóak.
+ > --Telepítés után a Ctrl+Alt+S kombminációval indíthatjuk el az IDE-t a Firefox böngészőben. Ha elindítottuk az alkalmazást, akkor a zöld nyíllal futtathatjuk a teszteket. A tesztek a test alkönyvtárban találhatóak.
  
 ![](selenium.PNG)
 
