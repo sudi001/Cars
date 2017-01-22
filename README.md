@@ -83,6 +83,27 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 
 ![] (rate.png)
 
+##Könyvtárszerkezet
+ 
+  **A fejlesztés szempontjából lényeges könyvtárak, fájlok:**
+
+![] (file.PNG)
+
+
+### Felhasználói dokumentáció
+
+**Használathoz szükséges:**
+- tetszőleges operációs rendszer
+- böngésző (Chrome, Firefox, stb...)
+- Visual Studio Code
+
+**Használat rövid leírása:**
+- bejelentkezés/regisztráció
+- kommentek olvasása
+- autók listázása
+- autók értékelése
+- kommentek írása
+
 
 
 **Selenium IDE telepítése**
