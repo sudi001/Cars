@@ -119,7 +119,31 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
   * Futtatás: terminál ablak nyitása (ctrl + ö) -> cd cars -> npm start
   * Használat: bármely böngészőben indítható a localhost:3333-on
 
+## Kliensoldali funkciók
 
+
+** Popup Login**
+ - Módosított / új fájlok: *login_popup.js*, *main.njk*, *login.njk*, *UserController.js*, *routes.js*
+ - Leírás: A főoldalon, ha nem vagyunk bejelentkezve, akkor egy  hívás történik mely során felugrik egy AJAX-os ablak, ahol be lehet jelentkezni (így nem kell a bejelentkező oldalra ugrani)
+ 
+ 
+ **Szekvencia diagram:**  
+ ![](seq.jpg)
+
+
+
+** Regisztrációs adatok validálása**  
+ - Módosított / új fájlok: *register.njk*
+ - Leírás: Regisztráció során ellenőrzi, hogy a felhasználó megfelelő adatokat adott-e meg:  
+  * Felhasználónév: csak ékezet nélküli betű és szám
+  * Email: email formátumnak megfelelő
+  * Jelszó: a két jelszónek meg kell egyeznie
+  
+** Kiléps megerősítés**
+ - Leírás: Egy már belépett felhasználó véletlen kijelentkezését, szükséges megakadályozni. Egy egyszerű popupon keresztül megerősítendő a kijelentkezés szándéka
+ 
+** Komment validálás**
+ - Leírás: Egy már belépett felhasználó kommentelésének a feltételeit ellenőrzi, melyek szerint értékelést csak szöveges komment mellett, és szöveges kommentet csak értékelés mellett, küldhet el a bejelentkezett felhasználó.
 
 ## Könyvtárszerkezet
  
@@ -142,8 +166,11 @@ Az alkalmazásban a felhasználóknak személygépjárművek adatainak a megteki
 - autók értékelése
 - kommentek írása
 
- **Szekvencia diagram:**  
- ![](seq.jpg)
+**Tesztek:**
+ - a kommentelést teszteli, bejelentkezett felhasználó esetén
+ - kezdőlapról történő bejelentkezés és kijelentkezést tesztel
+ - kezdőlapról regisztrációt tesztel
+ - kijelentkezett felhasználó esetén autók listázását és komment olvasást tesztel
 
 **Selenium IDE telepítése**
 
